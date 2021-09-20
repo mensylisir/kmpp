@@ -1,2 +1,0 @@
-[2021-09-20 13:40:57] [INFO] start phase [encrypt] success (github.com/KubeOperator/KubeOperator/pkg/server.Start: 65) {map[]} 
-[2021-09-20 13:40:57] [ERROR] start phase [&{ 0    0 0}] failed reason: crypto/aes: invalid key size 0 (github.com/KubeOperator/KubeOperator/pkg/server.Start: 61) {map[]} 
