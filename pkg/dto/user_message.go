@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/KubeOperator/KubeOperator/pkg/model"
+import "github.com/kmpp/pkg/model"
 
 type UserMessageDTO struct {
 	model.UserMessage

@@ -2,7 +2,7 @@ package captcha
 
 import (
 	"errors"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
+	"github.com/kmpp/pkg/dto"
 	"github.com/mojocn/base64Captcha"
 )
 

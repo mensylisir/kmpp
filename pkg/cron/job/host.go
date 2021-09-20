@@ -3,11 +3,11 @@ package job
 import (
 	"sync"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/service"
 )
 
 type RefreshHostInfo struct {

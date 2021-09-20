@@ -1,0 +1,2 @@
+[2021-09-20 13:54:54] [INFO] start phase [encrypt] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 13:54:54] [INFO] start phase [db] success (github.com/kmpp/pkg/server.Start: 65) {map[]}

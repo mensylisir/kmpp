@@ -3,12 +3,12 @@ package service
 import (
 	"errors"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/page"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/errorf"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/controller/page"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/errorf"
+	"github.com/kmpp/pkg/model"
 	"github.com/jinzhu/gorm"
 )
 

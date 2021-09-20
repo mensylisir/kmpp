@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/util/net"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/util/net"
 	"github.com/pkg/errors"
 	extensionClientSet "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
 	"k8s.io/client-go/kubernetes"

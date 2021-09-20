@@ -1,8 +1,8 @@
 package cloud_provider
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/cloud_provider/client"
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
+	"github.com/kmpp/pkg/cloud_provider/client"
+	"github.com/kmpp/pkg/constant"
 )
 
 type CloudClient interface {

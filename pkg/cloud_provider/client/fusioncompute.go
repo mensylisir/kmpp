@@ -12,8 +12,8 @@ import (
 	"github.com/KubeOperator/FusionComputeGolangSDK/pkg/storage"
 	"github.com/KubeOperator/FusionComputeGolangSDK/pkg/task"
 	"github.com/KubeOperator/FusionComputeGolangSDK/pkg/vm"
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/logger"
 )
 
 func NewFusionComputeClient(vars map[string]interface{}) *fusionComputeClient {

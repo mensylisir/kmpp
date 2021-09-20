@@ -1,0 +1,9 @@
+[2021-09-20 15:24:24] [INFO] start phase [encrypt] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 15:24:24] [INFO] start phase [db] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 15:24:24] [INFO] no databases change,skip migrate (github.com/kmpp/pkg/migrate.(*InitMigrateDBPhase).Init: 75) {map[]}
+[2021-09-20 15:24:24] [INFO] start phase [migrate] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 15:24:24] [INFO] start phase [create data dir] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 15:24:24] [INFO] can not find plugin dir,skip (github.com/kmpp/pkg/plugin.(*InitPluginDBPhase).Init: 44) {map[]}
+[2021-09-20 15:24:24] [INFO] start phase [plugin] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 15:24:24] [INFO] start phase [cron] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 15:24:24] [INFO] run hook: BeforeApplicationStart (github.com/kmpp/pkg/server/hook.(*hook).Run: 26) {map[]}

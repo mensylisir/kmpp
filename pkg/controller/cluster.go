@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/KubeOperator/KubeOperator/pkg/controller/condition"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/controller/condition"
+	"github.com/kmpp/pkg/logger"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/kolog"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/page"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ansible"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/controller/kolog"
+	"github.com/kmpp/pkg/controller/page"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/service"
+	"github.com/kmpp/pkg/util/ansible"
 	"github.com/kataras/iris/v12/context"
 )
 

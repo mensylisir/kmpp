@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/condition"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/page"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/controller/condition"
+	"github.com/kmpp/pkg/controller/page"
+	"github.com/kmpp/pkg/service"
 	"github.com/kataras/iris/v12/context"
 )
 

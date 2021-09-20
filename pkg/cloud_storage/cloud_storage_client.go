@@ -2,8 +2,8 @@ package cloud_storage
 
 import (
 	"errors"
-	"github.com/KubeOperator/KubeOperator/pkg/cloud_storage/client"
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
+	"github.com/kmpp/pkg/cloud_storage/client"
+	"github.com/kmpp/pkg/constant"
 )
 
 var (

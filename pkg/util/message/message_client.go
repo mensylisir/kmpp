@@ -1,8 +1,8 @@
 package message
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/util/message/client"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/util/message/client"
 )
 
 type MessageClient interface {

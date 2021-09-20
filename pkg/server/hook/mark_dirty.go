@@ -1,10 +1,10 @@
 package hook
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/service"
 )
 
 func init() {

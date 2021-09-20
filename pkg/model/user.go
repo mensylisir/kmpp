@@ -3,9 +3,9 @@ package model
 import (
 	"errors"
 
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
-	"github.com/KubeOperator/KubeOperator/pkg/util/encrypt"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/model/common"
+	"github.com/kmpp/pkg/util/encrypt"
 	uuid "github.com/satori/go.uuid"
 )
 

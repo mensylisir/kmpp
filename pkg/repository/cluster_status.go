@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/model"
 	uuid "github.com/satori/go.uuid"
 )
 

@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
+	"github.com/kmpp/pkg/model/common"
 	uuid "github.com/satori/go.uuid"
 )
 

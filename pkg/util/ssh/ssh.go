@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/util/hash"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/util/hash"
 	"github.com/go-playground/validator/v10"
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"

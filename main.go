@@ -4,8 +4,8 @@ package main
 //go:generate swag init
 
 import (
-	_ "github.com/KubeOperator/KubeOperator/docs"
-	"github.com/KubeOperator/KubeOperator/pkg/server"
+	_ "github.com/kmpp/docs"
+	"github.com/kmpp/pkg/server"
 	_ "golang.org/x/text/message"
 	_ "golang.org/x/text/message/catalog"
 	"log"
@@ -28,3 +28,6 @@ func main() {
 		log.Fatal(err)
 	}
 }
+
+
+

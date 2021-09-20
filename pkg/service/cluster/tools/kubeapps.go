@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	helm2 "github.com/KubeOperator/KubeOperator/pkg/util/helm"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/model"
+	helm2 "github.com/kmpp/pkg/util/helm"
 )
 
 type Kubeapps struct {

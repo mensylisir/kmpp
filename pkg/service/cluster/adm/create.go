@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/initial"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/plugin/ingress"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/prepare"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/initial"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/plugin/ingress"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/prepare"
 )
 
 func (ca *ClusterAdm) Create(c *Cluster) error {

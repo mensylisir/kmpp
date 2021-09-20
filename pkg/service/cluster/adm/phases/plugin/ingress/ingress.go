@@ -1,9 +1,9 @@
 package ingress
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/facts"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases"
-	"github.com/KubeOperator/KubeOperator/pkg/util/kobe"
+	"github.com/kmpp/pkg/service/cluster/adm/facts"
+	"github.com/kmpp/pkg/service/cluster/adm/phases"
+	"github.com/kmpp/pkg/util/kobe"
 	"io"
 )
 

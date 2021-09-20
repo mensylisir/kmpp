@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
+	"github.com/kmpp/pkg/constant"
 	"k8s.io/kubernetes/third_party/forked/etcd237/pkg/fileutil"
 	"os"
 )

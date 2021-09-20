@@ -3,10 +3,10 @@ package service
 import (
 	"errors"
 
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/repository"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/repository"
 	"github.com/jinzhu/gorm"
 )
 

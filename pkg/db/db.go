@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/KubeOperator/KubeOperator/pkg/util/encrypt"
+	"github.com/kmpp/pkg/util/encrypt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 )
@@ -23,7 +23,11 @@ type InitDBPhase struct {
 }
 
 func (i *InitDBPhase) Init() error {
-	p, err := encrypt.StringDecrypt(i.Password)
+	aesPasswd, er1 := encrypt.StringEncrypt(i.Password)
+	if er1 != nil {
+		return er1
+	}
+	p, err := encrypt.StringDecrypt(aesPasswd)
 	if err != nil {
 		return err
 	}

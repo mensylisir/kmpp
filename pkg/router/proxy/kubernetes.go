@@ -11,11 +11,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/KubeOperator/KubeOperator/pkg/controller/kolog"
+	"github.com/kmpp/pkg/controller/kolog"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	kubeUtil "github.com/KubeOperator/KubeOperator/pkg/util/kubernetes"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/dto"
+	kubeUtil "github.com/kmpp/pkg/util/kubernetes"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/context"

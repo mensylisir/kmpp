@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/repository"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/repository"
+	"github.com/kmpp/pkg/service"
 )
 
 type ClusterBackup struct {

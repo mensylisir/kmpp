@@ -3,8 +3,8 @@ package istios
 import (
 	"fmt"
 
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/util/helm"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/util/helm"
 	"helm.sh/helm/v3/pkg/strvals"
 	"k8s.io/client-go/kubernetes"
 )

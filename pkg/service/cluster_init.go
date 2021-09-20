@@ -5,14 +5,14 @@ import (
 	"io"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/repository"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ansible"
-	clusterUtil "github.com/KubeOperator/KubeOperator/pkg/util/cluster"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ssh"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/repository"
+	"github.com/kmpp/pkg/service/cluster/adm"
+	"github.com/kmpp/pkg/util/ansible"
+	clusterUtil "github.com/kmpp/pkg/util/cluster"
+	"github.com/kmpp/pkg/util/ssh"
 	"github.com/sirupsen/logrus"
 )
 

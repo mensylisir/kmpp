@@ -2,7 +2,7 @@ package license
 
 import (
 	"encoding/json"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
+	"github.com/kmpp/pkg/dto"
 	"io/ioutil"
 	"os/exec"
 	"path"

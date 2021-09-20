@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
-	_ "github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/facts"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ssh"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model/common"
+	_ "github.com/kmpp/pkg/service/cluster/adm/facts"
+	"github.com/kmpp/pkg/util/ssh"
 	"github.com/KubeOperator/kobe/api"
 	uuid "github.com/satori/go.uuid"
 )

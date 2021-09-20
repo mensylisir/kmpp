@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/model"
+	"github.com/kmpp/pkg/model"
 	"github.com/jinzhu/gorm"
 	"testing"
 )

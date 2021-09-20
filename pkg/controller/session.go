@@ -2,16 +2,18 @@ package controller
 
 import (
 	"errors"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
+	"fmt"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/util/encrypt"
 	"github.com/jinzhu/gorm"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/kolog"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
-	"github.com/KubeOperator/KubeOperator/pkg/util/captcha"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/controller/kolog"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/service"
+	"github.com/kmpp/pkg/util/captcha"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/kataras/iris/v12/context"
 	"github.com/spf13/viper"
@@ -38,6 +40,11 @@ func NewSessionController() *SessionController {
 // @Success 200 {object} dto.Profile
 // @Router /auth/session/ [post]
 func (s *SessionController) Post() (*dto.Profile, error) {
+
+	password := "z3cBAQEBAQEr/ZvMF+wsHGX32ir+dJF08EsjStU64lWVEyCv9d7/ID0T3azWxpvN"
+	str, _ := encrypt.StringDecrypt(password)
+	fmt.Print(str)
+
 	aul := dto.LoginCredential{}
 	if err := s.Ctx.ReadJSON(&aul); err != nil {
 		return nil, err

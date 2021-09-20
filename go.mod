@@ -1,4 +1,4 @@
-module github.com/KubeOperator/KubeOperator
+module github.com/kmpp
 
 go 1.14
 
@@ -24,6 +24,7 @@ require (
 	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/fairwindsops/polaris v0.0.0-20201005190522-9cce9fcec757
 	github.com/fasthttp-contrib/websocket v0.0.0-20160511215533-1f3b11f56072 // indirect
+	github.com/fullstorydev/grpcurl v1.8.2
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-git/go-git/v5 v5.2.0
 	github.com/go-ldap/ldap v3.0.3+incompatible
@@ -39,6 +40,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.12.1
 	github.com/google/uuid v1.1.2
 	github.com/gophercloud/gophercloud v0.12.0
+	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.0 // indirect
 	github.com/imkira/go-interpol v1.1.0 // indirect
@@ -46,6 +48,7 @@ require (
 	github.com/iris-contrib/middleware/jwt v0.0.0-20191219204441-78279b78a367
 	github.com/iris-contrib/schema v0.0.6 // indirect
 	github.com/iris-contrib/swagger/v12 v12.0.1
+	github.com/jhump/protoreflect v1.9.0
 	github.com/jinzhu/gorm v1.9.12
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/kataras/golog v0.1.7 // indirect
@@ -81,6 +84,7 @@ require (
 	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
 	golang.org/x/sys v0.0.0-20210403161142-5e06dd20ab57 // indirect
 	golang.org/x/text v0.3.6
+	google.golang.org/grpc v1.40.0
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df

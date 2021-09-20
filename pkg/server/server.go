@@ -3,17 +3,17 @@ package server
 import (
 	"fmt"
 
-	"github.com/KubeOperator/KubeOperator/pkg/config"
-	"github.com/KubeOperator/KubeOperator/pkg/cron"
-	"github.com/KubeOperator/KubeOperator/pkg/data"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/encrypt"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/migrate"
-	"github.com/KubeOperator/KubeOperator/pkg/plugin"
-	"github.com/KubeOperator/KubeOperator/pkg/plugin/xpack"
-	"github.com/KubeOperator/KubeOperator/pkg/router"
-	"github.com/KubeOperator/KubeOperator/pkg/server/hook"
+	"github.com/kmpp/pkg/config"
+	"github.com/kmpp/pkg/cron"
+	"github.com/kmpp/pkg/data"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/encrypt"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/migrate"
+	"github.com/kmpp/pkg/plugin"
+	"github.com/kmpp/pkg/plugin/xpack"
+	"github.com/kmpp/pkg/router"
+	"github.com/kmpp/pkg/server/hook"
 	"github.com/kataras/iris/v12"
 	"github.com/spf13/viper"
 )
@@ -58,8 +58,8 @@ func Start() error {
 	phases := Phases()
 	for _, phase := range phases {
 		if err := phase.Init(); err != nil {
-			logger.Log.Errorf("start phase [%s] failed reason: %s",
-				phase.PhaseName(), err.Error())
+			logger.Log.Errorf("start phase [%v] failed reason: %s",
+				phase, err.Error())
 			return err
 		}
 		logger.Log.Infof("start phase [%s] success", phase.PhaseName())

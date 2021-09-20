@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/logger"
 )
 
 func TestSSHClient(t *testing.T) {

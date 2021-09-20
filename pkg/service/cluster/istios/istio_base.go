@@ -3,8 +3,8 @@ package istios
 import (
 	"encoding/json"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/model"
 )
 
 type BaseInterface struct {

@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
+	"github.com/kmpp/pkg/model/common"
 	"github.com/jinzhu/gorm"
 	uuid "github.com/satori/go.uuid"
 )

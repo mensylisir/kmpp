@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/service"
 	"github.com/kataras/iris/v12/context"
 )
 

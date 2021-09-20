@@ -1,9 +1,9 @@
 package kolog
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/service"
 )
 
 func Save(name, operation, operationInfo string) {

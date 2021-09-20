@@ -3,7 +3,7 @@ package polaris
 import (
 	"context"
 	"fmt"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
+	"github.com/kmpp/pkg/dto"
 	conf "github.com/fairwindsops/polaris/pkg/config"
 	"github.com/fairwindsops/polaris/pkg/kube"
 	"github.com/fairwindsops/polaris/pkg/validator"

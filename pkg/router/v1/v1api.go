@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/KubeOperator/KubeOperator/pkg/controller"
-	"github.com/KubeOperator/KubeOperator/pkg/errorf"
-	"github.com/KubeOperator/KubeOperator/pkg/middleware"
+	"github.com/kmpp/pkg/controller"
+	"github.com/kmpp/pkg/errorf"
+	"github.com/kmpp/pkg/middleware"
 	"github.com/jinzhu/gorm"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/context"
@@ -30,6 +30,7 @@ func V1(parent iris.Party) {
 	AuthScope.Use(middleware.ForceMiddleware)
 	mvc.New(AuthScope.Party("/clusters")).HandleError(ErrorHandler).Handle(controller.NewClusterController())
 	mvc.New(AuthScope.Party("/credentials")).HandleError(ErrorHandler).Handle(controller.NewCredentialController())
+	mvc.New(AuthScope.Party("/grpc")).HandleError(ErrorHandler).Handle(controller.NewGrpcproxyController())
 	mvc.New(AuthScope.Party("/hosts")).HandleError(ErrorHandler).Handle(controller.NewHostController())
 	mvc.New(AuthScope.Party("/users")).HandleError(ErrorHandler).Handle(controller.NewUserController())
 	mvc.New(AuthScope.Party("/regions")).HandleError(ErrorHandler).Handle(controller.NewRegionController())

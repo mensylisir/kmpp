@@ -6,9 +6,9 @@ import (
 	"github.com/iris-contrib/jade/testdata/imp/model"
 	"github.com/jinzhu/gorm"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/model/common"
 	uuid "github.com/satori/go.uuid"
 )
 

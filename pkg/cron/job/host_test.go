@@ -3,9 +3,9 @@ package job
 import (
 	"testing"
 
-	"github.com/KubeOperator/KubeOperator/pkg/config"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/config"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/logger"
 	"github.com/spf13/viper"
 )
 

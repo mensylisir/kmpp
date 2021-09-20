@@ -2,7 +2,7 @@ package cron
 
 import (
 	"fmt"
-	"github.com/KubeOperator/KubeOperator/pkg/cron/job"
+	"github.com/kmpp/pkg/cron/job"
 	"github.com/robfig/cron/v3"
 )
 

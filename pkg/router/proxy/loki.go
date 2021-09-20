@@ -7,7 +7,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
+	"github.com/kmpp/pkg/constant"
 	"github.com/kataras/iris/v12/context"
 )
 

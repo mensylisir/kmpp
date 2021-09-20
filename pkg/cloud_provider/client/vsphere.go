@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/logger"
 	"github.com/vmware/govmomi"
 	"github.com/vmware/govmomi/find"
 	"github.com/vmware/govmomi/object"

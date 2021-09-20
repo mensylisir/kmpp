@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/util/file"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/util/file"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 )

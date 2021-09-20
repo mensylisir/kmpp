@@ -11,14 +11,14 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/repository"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ansible"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/repository"
+	"github.com/kmpp/pkg/service/cluster/adm"
+	"github.com/kmpp/pkg/util/ansible"
 )
 
 type ClusterUpgradeService interface {

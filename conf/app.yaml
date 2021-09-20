@@ -4,10 +4,10 @@ bind:
 logging:
   level: info
 db:
-  host: mysql
-  port: 3306
+  host: localhost
+  port: 13306
   user: root
-  password: KubeOperator@admin123
+  password: xiaoming98
   name: ko
   max_open_conns: 200
   max_idle_conns: 10
@@ -31,3 +31,6 @@ grafana:
   port: 3000
   username: admin
   password: admin
+encrypt:
+  multilevel: 4
+  key: aaaaaaaaaaaaaaaa

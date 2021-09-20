@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/config"
+	"github.com/kmpp/pkg/config"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

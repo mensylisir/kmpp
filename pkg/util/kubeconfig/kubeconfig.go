@@ -3,7 +3,7 @@ package kubeconfig
 import (
 	"fmt"
 
-	"github.com/KubeOperator/KubeOperator/pkg/util/ssh"
+	"github.com/kmpp/pkg/util/ssh"
 	"github.com/pkg/errors"
 )
 

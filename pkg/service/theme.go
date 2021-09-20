@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/model"
 )
 
 type ThemeService interface{

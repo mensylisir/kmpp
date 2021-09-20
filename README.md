@@ -1,11 +1,11 @@
 <p align="center"><a href="https://kubeoperator.io"><img src="https://kubeoperator.oss-cn-beijing.aliyuncs.com/img/logo-red.png" alt="KubeOperator" width="300" /></a></p>
 <h3 align="center">从这里开启您的 Kubernetes 之旅</h3>
 <p align="center">
-  <a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/github/license/kubeoperator/kubeoperator?color=%231890FF&style=flat-square" alt="License: Apache License v2"></a>
-  <a href="https://app.codacy.com/gh/kubeoperator/kubeoperator?utm_source=github.com&utm_medium=referral&utm_content=kubeoperator/kubeoperator&utm_campaign=Badge_Grade_Dashboard"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
-  <a href="https://github.com/kubeoperator/kubeoperator/releases/latest"><img src="https://img.shields.io/github/v/release/kubeoperator/kubeoperator" alt="Latest release"></a>
-  <a href="https://github.com/kubeoperator/kubeoperator"><img src="https://img.shields.io/github/stars/kubeoperator/kubeoperator?color=%231890FF&style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/kubeoperator/kubeoperator/releases/latest"><img src="https://img.shields.io/github/downloads/kubeoperator/kubeoperator/total" alt="Downloads"></a>
+  <a href="http://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/github/license/kmpp?color=%231890FF&style=flat-square" alt="License: Apache License v2"></a>
+  <a href="https://app.codacy.com/gh/kmpp?utm_source=github.com&utm_medium=referral&utm_content=kmpp&utm_campaign=Badge_Grade_Dashboard"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
+  <a href="https://github.com/kmpp/releases/latest"><img src="https://img.shields.io/github/v/release/kmpp" alt="Latest release"></a>
+  <a href="https://github.com/kmpp"><img src="https://img.shields.io/github/stars/kmpp?color=%231890FF&style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/kmpp/releases/latest"><img src="https://img.shields.io/github/downloads/kmpp/total" alt="Downloads"></a>
 </p>
 <hr />
 
@@ -56,7 +56,7 @@ KubeOperator 使用 Terraform 在 IaaS 平台上自动创建主机（用户也�
  2. 以 root 用户执行如下命令一键安装 KubeOperator。
 
 ```sh
-curl -sSL https://github.com/KubeOperator/KubeOperator/releases/latest/download/quick_start.sh | sh
+curl -sSL https://github.com/kmpp/releases/latest/download/quick_start.sh | sh
 ```
 
 文档和演示视频：
@@ -289,7 +289,7 @@ curl -sSL https://github.com/KubeOperator/KubeOperator/releases/latest/download/
     </tr>
  </table>
 
-具体版本路线图请参考：[Roadmap](https://github.com/KubeOperator/KubeOperator/blob/master/ROADMAP.md)
+具体版本路线图请参考：[Roadmap](https://github.com/kmpp/blob/master/ROADMAP.md)
 
 ### 支持组件
 

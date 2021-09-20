@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/dto"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/context"
 	"github.com/storyicon/grbac"

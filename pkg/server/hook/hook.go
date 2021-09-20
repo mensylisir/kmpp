@@ -1,6 +1,6 @@
 package hook
 
-import "github.com/KubeOperator/KubeOperator/pkg/logger"
+import "github.com/kmpp/pkg/logger"
 
 type Func func() error
 

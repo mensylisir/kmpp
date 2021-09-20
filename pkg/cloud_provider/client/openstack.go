@@ -3,7 +3,7 @@ package client
 import (
 	"encoding/json"
 	"errors"
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
+	"github.com/kmpp/pkg/constant"
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack"
 	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumetypes"

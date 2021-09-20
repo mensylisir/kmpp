@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/util/kobe"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/util/kobe"
 	"github.com/spf13/viper"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"

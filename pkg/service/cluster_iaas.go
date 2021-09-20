@@ -9,16 +9,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/KubeOperator/KubeOperator/pkg/cloud_provider"
-	"github.com/KubeOperator/KubeOperator/pkg/cloud_provider/client"
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
-	"github.com/KubeOperator/KubeOperator/pkg/repository"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ipaddr"
-	"github.com/KubeOperator/KubeOperator/pkg/util/kotf"
-	"github.com/KubeOperator/KubeOperator/pkg/util/lang"
+	"github.com/kmpp/pkg/cloud_provider"
+	"github.com/kmpp/pkg/cloud_provider/client"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/model/common"
+	"github.com/kmpp/pkg/repository"
+	"github.com/kmpp/pkg/util/ipaddr"
+	"github.com/kmpp/pkg/util/kotf"
+	"github.com/kmpp/pkg/util/lang"
 )
 
 type ClusterIaasService interface {

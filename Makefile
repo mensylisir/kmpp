@@ -4,6 +4,7 @@ GOCLEAN=$(GOCMD) clean
 BASEPATH := $(shell pwd)
 BUILDDIR=$(BASEPATH)/dist
 GOGINDATA=go-bindata
+GOARCH=amd64
 
 KO_SERVER_NAME=ko-server
 KO_CONFIG_DIR=etc/ko

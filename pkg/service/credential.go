@@ -3,16 +3,16 @@ package service
 import (
 	"errors"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/condition"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/page"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
-	"github.com/KubeOperator/KubeOperator/pkg/repository"
-	dbUtil "github.com/KubeOperator/KubeOperator/pkg/util/db"
-	"github.com/KubeOperator/KubeOperator/pkg/util/encrypt"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/controller/condition"
+	"github.com/kmpp/pkg/controller/page"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/model/common"
+	"github.com/kmpp/pkg/repository"
+	dbUtil "github.com/kmpp/pkg/util/db"
+	"github.com/kmpp/pkg/util/encrypt"
 )
 
 var CredentialNameExist = "NAME_EXISTS"

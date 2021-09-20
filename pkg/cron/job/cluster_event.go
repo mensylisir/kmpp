@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
-	"github.com/KubeOperator/KubeOperator/pkg/util/kubernetes"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/service"
+	"github.com/kmpp/pkg/util/kubernetes"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

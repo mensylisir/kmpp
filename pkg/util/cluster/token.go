@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ssh"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/util/ssh"
 	uuid "github.com/satori/go.uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
 )

@@ -2,8 +2,8 @@ package v1
 
 import (
 	"fmt"
-	"github.com/KubeOperator/KubeOperator/pkg/service"
-	"github.com/KubeOperator/KubeOperator/pkg/util/captcha"
+	"github.com/kmpp/pkg/service"
+	"github.com/kmpp/pkg/util/captcha"
 	"github.com/kataras/iris/v12/context"
 	"net/http"
 )

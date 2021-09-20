@@ -2,7 +2,7 @@ package encrypt
 
 import (
 	"fmt"
-	"github.com/KubeOperator/KubeOperator/pkg/config"
+	"github.com/kmpp/pkg/config"
 	"testing"
 )
 

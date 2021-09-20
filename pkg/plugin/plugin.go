@@ -6,8 +6,8 @@ import (
 	"plugin"
 	"strings"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/util/file"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/util/file"
 )
 
 const (

@@ -1,0 +1,2 @@
+[2021-09-20 13:55:00] [INFO] start phase [migrate] success (github.com/kmpp/pkg/server.Start: 65) {map[]}
+[2021-09-20 13:55:00] [ERROR] start phase [&{}] failed reason: mkdir /var/ko: permission denied (github.com/kmpp/pkg/server.Start: 61) {map[]}

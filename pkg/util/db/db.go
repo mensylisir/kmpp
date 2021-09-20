@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/KubeOperator/KubeOperator/pkg/controller/condition"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
+	"github.com/kmpp/pkg/controller/condition"
+	"github.com/kmpp/pkg/model"
 	"github.com/jinzhu/gorm"
 
-	originalDB "github.com/KubeOperator/KubeOperator/pkg/db"
+	originalDB "github.com/kmpp/pkg/db"
 )
 
 func WithProjectResource(db **gorm.DB, projectName string, resourceType string) ([]model.ProjectResource, error) {

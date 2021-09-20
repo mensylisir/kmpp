@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/logger"
 )
 
 type dingTalk struct {

@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/controller/condition"
-	"github.com/KubeOperator/KubeOperator/pkg/controller/page"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/dto"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	dbUtil "github.com/KubeOperator/KubeOperator/pkg/util/db"
+	"github.com/kmpp/pkg/controller/condition"
+	"github.com/kmpp/pkg/controller/page"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/dto"
+	"github.com/kmpp/pkg/model"
+	dbUtil "github.com/kmpp/pkg/util/db"
 )
 
 type SystemLogService interface {

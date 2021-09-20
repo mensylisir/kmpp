@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/util/encrypt"
-	"github.com/KubeOperator/KubeOperator/pkg/util/file"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/db"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/util/encrypt"
+	"github.com/kmpp/pkg/util/file"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/mysql"
@@ -39,7 +39,11 @@ type InitMigrateDBPhase struct {
 }
 
 func (i *InitMigrateDBPhase) Init() error {
-	p, err := encrypt.StringDecrypt(i.Password)
+	aesPasswd, er1 := encrypt.StringEncrypt(i.Password)
+	if er1 != nil {
+		return er1
+	}
+	p, err := encrypt.StringDecrypt(aesPasswd)
 	if err != nil {
 		return err
 	}

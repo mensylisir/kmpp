@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/model"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/backup"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/initial"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/prepare"
-	"github.com/KubeOperator/KubeOperator/pkg/service/cluster/adm/phases/upgrade"
-	"github.com/KubeOperator/KubeOperator/pkg/util/version"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/model"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/backup"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/initial"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/prepare"
+	"github.com/kmpp/pkg/service/cluster/adm/phases/upgrade"
+	"github.com/kmpp/pkg/util/version"
 )
 
 func (ca *ClusterAdm) Upgrade(c *Cluster) error {

@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/KubeOperator/KubeOperator/pkg/util/ssh"
+	"github.com/kmpp/pkg/util/ssh"
 )
 
 func TestReadKubeConfigFile(t *testing.T) {

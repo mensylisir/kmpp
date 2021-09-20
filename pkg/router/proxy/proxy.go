@@ -1,7 +1,7 @@
 package proxy
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/service"
+	"github.com/kmpp/pkg/service"
 	"github.com/kataras/iris/v12"
 )
 

@@ -2,10 +2,10 @@ package router
 
 import (
 	"fmt"
-	"github.com/KubeOperator/KubeOperator/pkg/controller"
-	"github.com/KubeOperator/KubeOperator/pkg/i18n"
-	"github.com/KubeOperator/KubeOperator/pkg/router/proxy"
-	v1 "github.com/KubeOperator/KubeOperator/pkg/router/v1"
+	"github.com/kmpp/pkg/controller"
+	"github.com/kmpp/pkg/i18n"
+	"github.com/kmpp/pkg/router/proxy"
+	v1 "github.com/kmpp/pkg/router/v1"
 	"github.com/iris-contrib/swagger/v12"
 	"github.com/iris-contrib/swagger/v12/swaggerFiles"
 	"github.com/kataras/iris/v12"

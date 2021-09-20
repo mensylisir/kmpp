@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/util/ssh"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/util/ssh"
 )
 
 func TestGetClusterToken(t *testing.T) {

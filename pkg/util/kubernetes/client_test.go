@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
+	"github.com/kmpp/pkg/logger"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

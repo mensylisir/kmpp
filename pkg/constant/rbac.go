@@ -69,6 +69,9 @@ var Roles = loader.AdvancedRules{
 			"/api/v1/message/{**}",
 			"/api/v1/message/{**}/check/{**}",
 			"/api/v1/message/{**}/{**}",
+			"/api/v1/grpc/{**}",
+			"/api/v1/grpc/{**}/check/{**}",
+			"/api/v1/grpc/{**}/{**}",
 		},
 		Method: []string{"GET", "POST", "DELETE", "PUT", "PATCH"},
 		Permission: &grbac.Permission{
@@ -216,6 +219,10 @@ var Roles = loader.AdvancedRules{
 		Path: []string{
 			"/api/v1/users",
 			"/api/v1/users/{**}",
+			"/api/v1/grpc",
+			"/api/v1/grpc/{**}",
+			"/api/v1/grpc/{**}/{**}/{**}",
+			"/api/v1/grpc/{**}/{**}",
 		},
 		Method: []string{"GET"},
 		Permission: &grbac.Permission{
@@ -237,6 +244,10 @@ var Roles = loader.AdvancedRules{
 			"/api/v1/backupaccounts",
 			"/api/v1/backupaccounts/buckets",
 			"/api/v1/projects/{**}/{resources,members}",
+			"/api/v1/grpc",
+			"/api/v1/grpc/{**}",
+			"/api/v1/grpc/{**}/{**}/{**}",
+			"/api/v1/grpc/{**}/{**}",
 		},
 		Method: []string{"POST"},
 		Permission: &grbac.Permission{
@@ -253,6 +264,10 @@ var Roles = loader.AdvancedRules{
 			"/api/v1/vmconfigs/{**}",
 			"/api/v1/backupaccounts/{**}",
 			"/api/v1/projects/{**}/{resources,members}/{**}",
+			"/api/v1/grpc",
+			"/api/v1/grpc/{**}",
+			"/api/v1/grpc/{**}/{**}/{**}",
+			"/api/v1/grpc/{**}/{**}",
 		},
 		Method: []string{"DELETE"},
 		Permission: &grbac.Permission{

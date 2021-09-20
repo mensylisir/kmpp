@@ -3,8 +3,8 @@ package model
 import (
 	"errors"
 
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
-	"github.com/KubeOperator/KubeOperator/pkg/model/common"
+	"github.com/kmpp/pkg/constant"
+	"github.com/kmpp/pkg/model/common"
 	uuid "github.com/satori/go.uuid"
 )
 

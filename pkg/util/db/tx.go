@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/KubeOperator/KubeOperator/pkg/db"
+	"github.com/kmpp/pkg/db"
 	"github.com/jinzhu/gorm"
 )
 

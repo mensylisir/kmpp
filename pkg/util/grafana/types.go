@@ -2,7 +2,7 @@ package grafana
 
 import (
 	"encoding/json"
-	"github.com/KubeOperator/KubeOperator/pkg/constant"
+	"github.com/kmpp/pkg/constant"
 	uuid "github.com/satori/go.uuid"
 )
 

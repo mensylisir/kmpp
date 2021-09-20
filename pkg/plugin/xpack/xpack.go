@@ -1,8 +1,8 @@
 package xpack
 
 import (
-	"github.com/KubeOperator/KubeOperator/pkg/logger"
-	"github.com/KubeOperator/KubeOperator/pkg/plugin"
+	"github.com/kmpp/pkg/logger"
+	"github.com/kmpp/pkg/plugin"
 	"github.com/pkg/errors"
 )
 

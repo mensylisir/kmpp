@@ -26,7 +26,7 @@ func (s *MineFormatter) Format(entry *logrus.Entry) ([]byte, error) {
 
 func Init() {
 	log := logrus.New()
-	path := "/var/ko/data/logs/log"
+	path := "/home/mensyli1/Documents/Workspace/kmpp/data/logs/log"
 
 	l := viper.GetString("logging.level")
 	outPut := viper.GetString("logging.out_put")
