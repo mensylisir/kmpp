@@ -75,12 +75,6 @@ func (gs *grpcproxyService) DescribeFunction(host, funcName string, useTLS bool)
 	if err != nil {
 		return nil, err
 	}
-
-	type desc struct {
-		Schema   string `json:"schema"`
-		Template string `json:"template"`
-	}
-
 	gs.g.Extend(host)
 
 	var desc1 dto.Desc
